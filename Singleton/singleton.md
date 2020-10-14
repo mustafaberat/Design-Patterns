@@ -1,10 +1,10 @@
 # Singleton Design Pattern
 
-The single design patterns based on the number of one-time object creations.
+The single design pattern based on the number of one-time object creation.
 
 ## Why we use
 
-Singletons are useful in situations where system-wide action <b> need to be coordinated from a single central place </b> such as database connection pool. That pool manages the creation, destruction and connections for entire application ensuring that no connections are lost.
+Singleton is useful in situations where system-wide action <b> need to be coordinated from a single central place </b> such as database connection pool. That pool manages the creation, destruction and connections for entire application ensuring that no connections are lost.
 
 Singletons reduce the need for global variables which is particulary important for any languages becuase it limits namespace pollution and associated risk of name collisions.
 
